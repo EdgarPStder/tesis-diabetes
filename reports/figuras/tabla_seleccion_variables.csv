@@ -1,0 +1,22 @@
+variable,grupo,descripcion,obtenible_sin_laboratorio,riesgo_causalidad_inversa,conjunto_minimo,justificacion
+Age,Demográfica,Grupo de edad (13 categorías de 5 años),Sí,No,Estricto,Dato que la persona conoce
+Sex,Demográfica,Sexo,Sí,No,Estricto,Dato que la persona conoce
+Education,Demográfica,Nivel educativo (1-6),Sí,No,Estricto,Determinante social; autorreportable
+Income,Demográfica,Nivel de ingreso (1-8),Sí,No,Estricto,Determinante social; autorreportable
+BMI,Antropométrica,Índice de masa corporal,Sí,No,Estricto,Se calcula con peso y estatura
+Smoker,Estilo de vida,Ha fumado al menos 100 cigarrillos,Sí,No,Estricto,Autorreportable
+PhysActivity,Estilo de vida,Actividad física en los últimos 30 días,Sí,Bajo,Estricto,Autorreportable; también en FINDRISC
+Fruits,Estilo de vida,Consume fruta al menos una vez al día,Sí,Bajo,Estricto,Autorreportable; también en FINDRISC
+Veggies,Estilo de vida,Consume verduras al menos una vez al día,Sí,Bajo,Estricto,Autorreportable; también en FINDRISC
+HvyAlcoholConsump,Estilo de vida,Consumo excesivo de alcohol,Sí,No,Estricto,Autorreportable
+GenHlth,Percepción de salud,Salud general percibida (1-5),Sí,Alto,Ampliado,Puede empeorar a consecuencia de la diabetes
+MentHlth,Percepción de salud,Días de mala salud mental (0-30),Sí,Medio,Ampliado,Puede ser consecuencia de la enfermedad
+PhysHlth,Percepción de salud,Días de mala salud física (0-30),Sí,Alto,Ampliado,Puede ser consecuencia de la enfermedad
+DiffWalk,Percepción de salud,Dificultad para caminar,Sí,Alto,Ampliado,"Puede ser complicación (neuropatía, obesidad)"
+HighBP,Diagnóstico previo,Le han dicho que tiene presión alta,"Sí, si la conoce",Medio,Ampliado,Requiere diagnóstico previo; FINDRISC pregunta por antihipertensivos
+HighChol,Diagnóstico previo,Le han dicho que tiene colesterol alto,No,Medio,Completo,Requiere análisis de sangre
+Stroke,Diagnóstico previo,Ha tenido un infarto cerebral,Sí,Alto,Completo,Posible complicación de la diabetes
+HeartDiseaseorAttack,Diagnóstico previo,Enfermedad coronaria o infarto,Sí,Alto,Completo,Posible complicación de la diabetes
+CholCheck,Acceso a salud,Revisión de colesterol en 5 años,Sí,Alto,Completo,Proxy de contacto con el sistema de salud
+AnyHealthcare,Acceso a salud,Tiene cobertura de salud,Sí,Medio,Completo,Proxy de contacto con el sistema de salud
+NoDocbcCost,Acceso a salud,No fue al médico por costo,Sí,Medio,Completo,Proxy de acceso a salud
